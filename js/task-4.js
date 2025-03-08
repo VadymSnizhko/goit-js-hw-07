@@ -13,10 +13,10 @@ function handleForm(event){
         pass: elementsOnForm.password.value
     }
     if(loginValue.email.length && loginValue.pass.length){
-        console.log(loginValue); 
+        console.log(loginValue);
+        form.reset(); 
     }else{
         alert('All form fields must be filled in');
     }
-    form.reset();
 }
 
