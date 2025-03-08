@@ -1,4 +1,4 @@
-class CategoryAnalyzer {
+class Category {
     constructor() {
       this.countCategories = 0;
       this.titleCategories = [];
@@ -21,7 +21,7 @@ class CategoryAnalyzer {
   
       this.printResults();
     }
-  
+    // Виведення результату
     printResults() {
       console.log(`Number of categories: ${this.countCategories}`);
       
@@ -33,6 +33,6 @@ class CategoryAnalyzer {
   }
   
   // Використання класу
-  const analyzer = new CategoryAnalyzer();
+  const analyzer = new Category();
   analyzer.analyzeCategories();
   
