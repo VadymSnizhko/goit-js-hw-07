@@ -17,8 +17,6 @@ function handleForm(event){
     }else{
         alert('All form fields must be filled in');
     }
-
     form.reset();
-
 }
 
